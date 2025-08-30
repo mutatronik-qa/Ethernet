@@ -3,7 +3,7 @@
 #include <Ethernet.h>
 
 byte mac[] = { 0xDE, 0xAD, 0xAE, 0xEF, 0xF0, 0xED };//Ponemos la dirección MAC de la Ethernet Shield
-IPAddress ip(192,168,1,177); //Asignamos  la IP al Arduino
+IPAddress ip(10,0,148,177); //Asignamos  la IP al Arduino
 EthernetServer server(80); //Creamos un servidor Web con el puerto 80 que es el puerto HTTP por defecto
  
 int LED1=2; //Pin del LED 1
